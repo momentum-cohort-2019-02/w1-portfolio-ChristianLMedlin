@@ -30,6 +30,7 @@ body{
     font-size: 40px;
     padding-left: 5%;
     border-bottom: solid black;
+    margin-bottom: 5rem;
 }
 
 .currentPage{
@@ -52,18 +53,48 @@ a:hover {
   }
 
 .myPic{
-    float: left;
     width: 40%;
+    float: left;
     margin-top: 3%;
     margin-right: 10%;
 }
 
 .infoPlate{
     float: right;
-    width: 43%;
+    width: 40%;
     border-left: solid black;
     padding-left: 2%;
 
+}
+
+.combineDiv{
+    width:95%;
+    height: 20rem;
+}
+
+.projectPics{
+    border: solid black;
+    width: 40%;
+    float: right;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.projectText{
+    
+    width:40%;
+}
+
+.resumeInfo{
+    width: 95%;
+}
+
+.contactInfo{
+
+}
+
+.infoItems{
+    margin-bottom: 4rem;
 }
 
 h1{
@@ -72,4 +103,37 @@ h1{
 
 h2{
     margin-top: .5rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .headerParent {
+        display: flex;
+    }
+    
+    
+    .namePlate{
+        width: 60%;
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .linksPlate{
+        width: 60%;
+        float: none;
+        margin: 0;
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .myPic{
+        float: none;
+        width: 60%;
+    }
+
+    .infoPlate{
+        width: 60%;
+        float: none;
+    }
 }
