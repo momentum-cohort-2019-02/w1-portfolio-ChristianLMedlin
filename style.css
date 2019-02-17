@@ -136,4 +136,19 @@ h2{
         width: 60%;
         float: none;
     }
+
+    .combineDiv{
+        margin: none;
+        margin-bottom: 12rem;
+    }
+
+    .projectText{
+        width: 80%;
+        float: none;
+    }
+
+    .projectPics{
+        width: 80%;
+        float: none;
+    }
 }
